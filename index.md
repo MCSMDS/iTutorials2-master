@@ -10,9 +10,9 @@ bgd: true
 
 <div class="mt-3 row row-cols-1 row-cols-sm-2 row-cols-lg-3" style="background:#f4f4f4">
 
-{% include card.html url="/server/" img="/server/index" title="服务器架设" %}
+{% include card.html url="/iTutorials2-master/server/" img="/iTutorials2-master/server/index" title="服务器架设" %}
 
-{% include card.html url="/html/" img="/html/index" title="HTML 网页结构" %}
+{% include card.html url="/iTutorials2-master/html/" img="/iTutorials2-master/html/index" title="HTML 网页结构" %}
 
 <!--CSS 展示效果,JS 功能行为-->
 
