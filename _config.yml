@@ -1,0 +1,22 @@
+version:
+  bootstrap: 4.4.1
+  jquery: 3.4.1
+  lighthouse: 5.6.0
+  workbox: 5.1.2
+
+collections:
+  assets:
+    output: true
+  workbox:
+    output: true
+  tutorials:
+    output: true
+    permalink: /:path
+
+timezone: Asia/Shanghai
+
+plugins:
+  - jekyll-sitemap
+
+kramdown:
+  smart_quotes: apos,apos,quot,quot

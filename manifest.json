@@ -1,0 +1,19 @@
+---
+---
+{
+  "short_name": "iTutorials",
+  "name": "iTutorials",
+  "description": "You can learn something",
+  "icons": [
+    {
+      "src": "/iTutorials2-master/assets/images/favicon.jpg?v={{ "now" | date: "%s" }}",
+      "type": "image/png",
+      "sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#343a40",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#343a40"
+}

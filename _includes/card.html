@@ -1,0 +1,12 @@
+<div class="col mb-3">
+<div class="rounded">
+<a href="{{ include.url }}" class="text-decoration-none">
+<picture>
+<source type="image/webp" srcset="{{ include.img }}.webp?v={{ "now" | date: "%s" }}">
+<source type="image/jpeg" srcset="{{ include.img }}.jpg?v={{ "now" | date: "%s" }}">
+<img src="{{ include.img }}.jpg?v={{ "now" | date: "%s" }}" class="img-fluid rounded-top" alt="{{ include.title }}">
+</picture>
+<h5 class="text-dark rounded-bottom bg-white p-3 mb-0">{{ include.title }}</h5>
+</a>
+</div>
+</div>
